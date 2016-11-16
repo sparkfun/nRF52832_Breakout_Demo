@@ -4,6 +4,8 @@ Use the [Intel® XDK](https://software.intel.com/en-us/intel-xdk) to build the X
 
 As the Arduino code is running on the nRF52832, open the phone app, which should automatically connect to the nRF52832. Press ON to send the "on" signal over BLE and press OFF to send the "off" signal (i.e. write a 1 or 0 to the BLE characteristic).
 
+**IMPORTANT**: Add a transistor as a switch between pin 8 on the nRF52832 and the +in pin on the PowerSwitch Tail.
+
 More information on the nRF52832 Breakout Board can be found [here](https://learn.sparkfun.com/tutorials/nrf52832-breakout-board-hookup-guide). Using the Intel XDK can be found [here](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-for-edison-experiment-guide/using-the-xdk).
 
 ### License

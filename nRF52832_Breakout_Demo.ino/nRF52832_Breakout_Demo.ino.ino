@@ -2,6 +2,10 @@
 #include <SPI.h>
 #include <BLEPeripheral.h>
 
+// ***SUPER IMPORTANT!!!***
+// This doesn't work very well. Really need a transistor to act as a switch 
+// between pin 8 and the PowerSwitch Tail.
+
 //////////////
 // Hardware //
 //////////////
